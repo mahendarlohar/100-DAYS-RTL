@@ -14,7 +14,7 @@ module mux_2to1_tb;
   end
 
   initial begin
-    $monitor("a=%b | b=%b | s=%b | y=%b", a,b,s,y);
+    $monitor("Time=%0t ns | a=%b | b=%b | s=%b | y=%b",$time,a,b,s,y);
   end
 
 endmodule
