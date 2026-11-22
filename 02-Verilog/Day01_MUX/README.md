@@ -17,3 +17,11 @@ When S = 1, Y = b.
 
 ## Verification
 Testbench simulation
+
+## Simulation Results
+- Tool: Xilinx Vivado
+- Simulation : Behavioral Simulation
+- Verification : Passed for all 4 test cases
+
+## Waveform
+! [MUX waveform] (mux_2to1_waveform.png)
