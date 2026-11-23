@@ -1,24 +1,34 @@
-# Day 02 - 4:1 Demultiplexer
+# Day 04 - 1:4 Demultiplexer (DEMUX)
 
 ## Objective
-Design a 4:1 Demultiplexer using Verilog HDL.
+Design and implement a 1:4 Demultiplexer using Verilog HDL.
 
 ## Inputs
-- D: Data input
-- S[1:0]: Select lines
+- D: Data Input
+- S[1:0]: Select Lines
 
 ## Outputs
-- Y[3:0]: Output lines
+- Y[3:0]: Four Output Lines
 
-## Working
-A 4:1 DEMUX routes one input to one of four outputs based on two select lines.
+## Working Principle
+A 1:4 Demultiplexer takes one data input and routes it to one of four outputs depending on the select lines.
 
-## RTL Design
-Implemented using continuous assignment (`assign`) statements.
+## Truth Table
+
+| D | S1 | S0 | Y3 | Y2 | Y1 | Y0 |
+|---|-- -|- --|-- -|- --|- --|- --|
+| 1 |  0 |  0 |  0 |  0 |  0 |  1 |
+| 1 |  0 |  1 |  0 |  0 |  1 |  0 |
+| 1 |  1 |  0 |  0 |  1 |  0 |  0 |
+| 1 |  1 |  1 |  1 |  0 |  0 |  0 |
+
+## RTL Implementation
+Implemented using continuous assignment statements (`assign`).
 
 ## Verification
-- Testbench created.
+- Testbench created using Verilog HDL.
 - All four select combinations tested.
+- Both logic 0 and logic 1 data inputs verified.
 - Simulation performed using Xilinx Vivado.
 
 ## Tools Used
@@ -26,5 +36,8 @@ Implemented using continuous assignment (`assign`) statements.
 - Xilinx Vivado
 - GitHub
 
-## Learning Outcome
-Learned 4:1 DEMUX operation, truth table, Boolean expressions and continuous assignments.
+## Learning Outcomes
+- Understanding DEMUX operation.
+- Understanding select-line functionality.
+- Learning continuous assignment.
+- RTL design and functional verification.
