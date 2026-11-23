@@ -1,4 +1,4 @@
-# Day 03 - 4:1 Demultiplexer
+# Day 02 - 4:1 Demultiplexer
 
 ## Objective
 Design a 4:1 Demultiplexer using Verilog HDL.
