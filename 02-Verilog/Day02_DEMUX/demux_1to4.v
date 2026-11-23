@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module demux_4to1(
+module demux_1to4(
         input d,
         input [1:0]s,
         output [3:0]y
