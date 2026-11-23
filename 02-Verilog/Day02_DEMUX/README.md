@@ -13,15 +13,6 @@ Design and implement a 1:4 Demultiplexer using Verilog HDL.
 ## Working Principle
 A 1:4 Demultiplexer takes one data input and routes it to one of four outputs depending on the select lines.
 
-## Truth Table
-
-| D | S1 | S0 | Y3 | Y2 | Y1 | Y0 |
-|---|-- -|- --|-- -|- --|- --|- --|
-| 1 |  0 |  0 |  0 |  0 |  0 |  1 |
-| 1 |  0 |  1 |  0 |  0 |  1 |  0 |
-| 1 |  1 |  0 |  0 |  1 |  0 |  0 |
-| 1 |  1 |  1 |  1 |  0 |  0 |  0 |
-
 ## RTL Implementation
 Implemented using continuous assignment statements (`assign`).
 
