@@ -1,4 +1,4 @@
-# Day 04 - 1:4 Demultiplexer (DEMUX)
+# Day 02 - 1:4 Demultiplexer (DEMUX)
 
 ## Objective
 Design and implement a 1:4 Demultiplexer using Verilog HDL.
